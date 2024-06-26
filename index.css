@@ -1,0 +1,64 @@
+body {
+    background-image: url('pictures/gay.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+  div {
+    text-align: center;
+  }
+
+#name_check {
+    border: 15px solid transparent;
+    padding: 10px 20px;
+    -webkit-border-image: -webkit-linear-gradient(45deg, #ee0979, #ff6a00, #ffca3a, #30d15c, #008080, #00aced, #0036fa, #8800ff, #ee00ff) 1 100%; 
+    -moz-border-image: -moz-linear-gradient(45deg, #ee0979, #ff6a00, #ffca3a, #30d15c, #008080, #00aced, #0036fa, #8800ff, #ee00ff) 1 100%;
+    border-image: linear-gradient(45deg, #ee0979, #ff6a00, #ffca3a, #30d15c, #008080, #00aced, #0036fa, #8800ff, #ee00ff) 1 100%; 
+}
+
+#name_check:focus {
+    outline: none;
+    border-color: blue;
+}
+
+#Hiii {
+    padding: 10px 20px;
+
+    background-image: linear-gradient(45deg, #ee0979, #ff6a00, #ffca3a, #30d15c, #008080, #00aced, #0036fa, #8800ff, #ee00ff);
+
+    color: #fff;
+    border: none;
+}
+
+#Hiii:hover {
+    background-image: linear-gradient(45deg, #ee0979, #ff6a00, #ffca3a, #30d15c, #008080, #00aced, #0036fa, #8800ff);
+
+    transform: scale(1.1);
+}
+
+#result {
+    /* existing styles */
+    font-size: 20px;
+    color: linear-gradient(45deg, #ee0979, #ff6a00, #ffca3a, #30d15c, #008080, #00aced, #0036fa, #8800ff, #ee00ff);
+}
+
+
+  
+  input, button {
+    font-size: 28px;
+    padding: 15px 30px; 
+  }
+  
+  #result {
+    font-size: 34px;
+    background-image: linear-gradient(to right, #ee0979, #ff6a00, #ffca3a, #30d15c, #008080, #00aced, #0036fa, #8800ff, #ee00ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
